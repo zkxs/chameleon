@@ -1,0 +1,20 @@
+# Build output
+target/
+
+# IntelliJ IDEA
+.idea/
+
+# Eclipse
+.settings/
+.classpath
+.project
+/bin/
+
+# Windows junk
+desktop.ini
+
+# Mac junk
+.DS_Store
+
+# Secret values (tokens and such)
+/src/main/resources/secret-shit/
