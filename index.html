@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Chameleon</title>
+
+    <!-- Include Scala.js compiled code: https://github.com/zkxs/chameleon -->
+    <script type="text/javascript" src="./target/scala-2.12/chameleon-fastopt.js" async=""></script>
 </head>
 <body>
 
@@ -10,22 +13,20 @@
 
 <form id="form">
     <label for="players">number of players</label>
-    <input id="players" type="number" min="2" value="4" />
+    <input id="players" type="number" min="2" value="4" required="" />
     <br />
 
     <label for="player">your player number</label>
-    <input id="player" type="number" min="1" max="4" value="4" />
+    <input id="player" type="number" min="1" max="4" value="4" required="" />
     <br />
 
     <label for="seed">seed</label>
-    <input id="seed" type="text" placeholder="seed">
+    <input id="seed" type="text" required="" />
     <br />
 
     <input type="submit" value="go"/>
 </form>
 <p id="out"></p>
 
-<!-- Include Scala.js compiled code -->
-<script type="text/javascript" src="./target/scala-2.12/chameleon-fastopt.js"></script>
 </body>
 </html>
