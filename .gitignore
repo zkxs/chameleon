@@ -15,6 +15,3 @@ desktop.ini
 
 # Mac junk
 .DS_Store
-
-# Secret values (tokens and such)
-/src/main/resources/secret-shit/

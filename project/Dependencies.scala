@@ -4,7 +4,7 @@ import org.scalajs.sbtplugin.ScalaJSPlugin.AutoImport._
 object Dependencies {
 
   lazy val dependencies = Seq(
-    "org.scala-js" %%%! "scalajs-dom" % "0.9.1" // https://github.com/vmunier/play-scalajs.g8/issues/20
+    "org.scala-js" %%%! "scalajs-dom" % "0.9.6" // https://github.com/vmunier/play-scalajs.g8/issues/20
   )
 
   lazy val testLibraries: Seq[ModuleID] = Seq(

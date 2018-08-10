@@ -26,8 +26,8 @@ object Chameleon {
     lazy val numberOfPlayersElement = document.getElementById("players").asInstanceOf[html.Input]
 
     // getters for form fields
-    def playerIndex: Int = playerIndexElement.valueAsNumber - 1
-    def numberOfPlayers: Int = numberOfPlayersElement.valueAsNumber
+    def playerIndex: Int = playerIndexElement.value.toInt - 1
+    def numberOfPlayers: Int = numberOfPlayersElement.value.toInt
     def seed = seedElement.value
 
     // setters

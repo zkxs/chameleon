@@ -5,11 +5,11 @@ enablePlugins(ScalaJSPlugin)
 lazy val root = (project in file(".")).
   settings(
     inThisBuild(List(
-      organization := "net.michaelripley",
-      scalaVersion := "2.12.3",
-      version      := "0.1.0-SNAPSHOT"
+      scalaVersion := "2.12.6"
     )),
+    organization := "net.michaelripley",
     name := "chameleon",
+    version := "0.1.0-SNAPSHOT",
     resolvers ++= extraResolvers,
     libraryDependencies ++= testLibraries,
     libraryDependencies ++= dependencies,
