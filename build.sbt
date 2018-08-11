@@ -13,5 +13,6 @@ lazy val root = (project in file(".")).
     resolvers ++= extraResolvers,
     libraryDependencies ++= testLibraries,
     libraryDependencies ++= dependencies,
-    scalaJSUseMainModuleInitializer := true
+    scalaJSUseMainModuleInitializer := true,
+    relativeSourceMaps := true
   )
