@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chameleon</title>
+
+    <!-- Include Scala.js compiled code: https://github.com/zkxs/chameleon -->
+    <script type="text/javascript" src="chameleon.js" async=""></script>
+</head>
+<body>
+
+<h1>Chameleon</h1>
+
+<form id="form">
+    <label for="players">number of players</label>
+    <input id="players" type="number" min="3" value="4" required="" />
+    <br />
+
+    <label for="player">your player number</label>
+    <input id="player" type="number" min="1" max="4" value="4" required="" />
+    <br />
+
+    <label for="seed">seed</label>
+    <input id="seed" type="text" required="" />
+    <br />
+
+    <input type="submit" value="go"/>
+</form>
+<p id="out"></p>
+
+</body>
+</html>
